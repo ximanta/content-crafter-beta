@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-   "build": "npm install --legacy-peer-deps && react-scripts build",
+   "install": "npm install --legacy-peer-deps",
+  "build": "npm run install && react-scripts build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
